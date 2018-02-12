@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+  background: #333;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+
+#first{
+  min-width: 60%;
+  width:100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#first>.inner-panel>p{
+  max-width: 80%;
+  width:100%;
+  margin: auto;
+  text-align: center;
+}
+#second{
+  min-width: 70%;
+  width:100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.myButton {
+  width: 150px;
+  height: 25px;
+  margin-top: 20px;
+    margin-left: 20px;
+	background-color:#ffffff;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #00ff1a;
+	display:inline-block;
+	cursor:pointer;
+	color:#080008;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/* DEMO-SPECIFIC STYLES */
+/* .typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+} */
+#variables{
+  height: 50%;
+  width: 50%;
+  color: white;
+}
